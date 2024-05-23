@@ -1,0 +1,75 @@
+
+.recommendation-container {
+    text-align: center;
+    background-image: repeating-linear-gradient(135deg, rgba(189,189,189,0.1) 0px, rgba(189,189,189,0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+    overflow: hidden;
+}
+
+.RecHeading {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    color: #333;
+    margin-top: 110px;
+}
+
+.RecForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.Rec-Own-Style{
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 300px;
+}
+
+.RecommendationButton {
+    margin: 10px 0;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #1D3D6E;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.RecommendationButton:hover {
+    background-color: #567bb3;
+}
+
+.recommendation-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recommendation-item {
+    background-color: #f9f9f9;
+    border: 1.2px solid #1D3D6E;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+}
+
+.recommendation-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.recommendation-details {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.recommendation-address {
+    color: #888;
+}
